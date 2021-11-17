@@ -1,0 +1,327 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  border: 0;
+}
+
+.header {
+  width: 375px;
+  height: 594px;
+}
+.burger-menu-uno {
+  margin-top: 18px;
+  width: 36px;
+  height: 6px;
+  background-color: black;
+  margin-left: 319px;
+}
+
+.burger-menu {
+  width: 36px;
+  height: 6px;
+  background-color: black;
+  margin-left: 319px;
+  margin-top: 7px;
+}
+@media (min-width: 796px) {
+  .burger-menu {
+    display: none;
+  }
+}
+
+.header-desktop {
+  display: flex;
+  justify-content: space-between;
+  width: 428px;
+  padding-top: 62px;
+  position: absolute;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+@media (max-width: 796px) {
+  .header-desktop {
+    display: none;
+  }
+}
+
+.imagen-1 {
+  margin-left: 17px;
+  position: absolute;
+}
+@media (min-width: 796px) {
+  .imagen-1 {
+    width: 95px;
+    height: 109px;
+    top: 36px;
+    left: 80px;
+  }
+}
+
+.h1 {
+  width: 291px;
+  height: 96px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  padding-left: 42px;
+  padding-top: 94px;
+}
+@media (min-width: 796px) {
+  .h1 {
+    width: 313px;
+    height: 96px;
+    padding-top: 260px;
+    padding-left: 80px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: left;
+  }
+}
+
+.imagen-2 {
+  width: 318px;
+  height: 300px;
+  top: 58px;
+  left: 31px;
+}
+@media (min-width: 796px) {
+  .imagen-2 {
+    padding-left: 921px;
+    height: 395px;
+    width: 735px;
+    padding-top: 221px;
+  }
+}
+
+.main {
+  background-color: black;
+  width: 375px;
+  height: 538px;
+  padding-top: 10px;
+}
+@media (min-width: 796px) {
+  .main {
+    width: auto;
+    height: 538px;
+    background-color: black;
+  }
+}
+
+.segundo-header {
+  padding: 55px;
+  width: 271px;
+  height: 44px;
+  margin-left: 50px;
+  font-family: "Open Sans";
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+@media (min-width: 796px) {
+  .segundo-header {
+    padding-left: 612px;
+  }
+}
+.parrafo {
+  color: white;
+  width: 312px;
+  height: 193px;
+  margin-left: 31px;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.check {
+  margin-left: 147px;
+  margin-top: 57px;
+}
+@media (min-width: 796px) {
+  .check {
+    width: 211px;
+    height: 211px;
+    left: 306px;
+    position: absolute;
+  }
+}
+
+.container-compus {
+  background-color: #fafafa;
+  display: grid;
+  grid-template-rows: auto;
+  height: 1375px;
+}
+
+.subtitulo {
+  font-family: "Open sans";
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin-top: 70px;
+}
+.primera-compu {
+  margin-left: 118px;
+  margin-top: 48px;
+}
+
+.subtitulos-compus {
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  width: 271px;
+  margin: 15px 52px;
+  font-weight: bold;
+}
+.parrafo-compus {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  margin: 15px 56px;
+}
+.segunda-compu {
+  margin-top: 108px;
+  margin-left: 108px;
+}
+
+.container-escribime {
+  background-color: #141414;
+  height: 660px;
+}
+.subtitulo-escribime {
+  font-family: "Open Sans";
+  font-weight: bold;
+  text-align: center;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fafafa;
+  margin-top: 52px;
+  padding: 40px;
+}
+.label-name {
+  font-family: "Roboto";
+  width: 54px;
+  height: 15px;
+  font-size: 13px;
+  line-height: 15px;
+  color: #fafafa;
+  margin-left: 20px;
+}
+.label-input {
+  width: 335px;
+  height: 45px;
+  margin-left: 20px;
+  border: 3px solid #2c2c2c;
+  border-radius: 4px;
+  margin-top: 9px;
+  margin-bottom: 27px;
+}
+.label-email {
+  font-family: "Roboto";
+  width: 38px;
+  height: 15px;
+  font-size: 13px;
+  line-height: 15px;
+  margin-left: 20px;
+  color: #fafafa;
+}
+.mail-input {
+  width: 335px;
+  height: 45px;
+  margin-left: 20px;
+  border: 3px solid #2c2c2c;
+  border-radius: 4px;
+  margin-top: 9px;
+  margin-bottom: 21px;
+}
+.label-mensaje {
+  color: #fafafa;
+  font-family: "Roboto";
+  font-size: 13px;
+  line-height: 15px;
+  margin-left: 20px;
+  width: 50px;
+  height: 15px;
+}
+
+.mensaje-input {
+  width: 335px;
+  height: 113px;
+  margin-left: 20px;
+  border: 3px solid #2c2c2c;
+  border-radius: 4px;
+  margin-top: 9px;
+  margin-bottom: 60px;
+}
+.boton {
+  background-color: #ffd953;
+  border-radius: 4px;
+  width: 335px;
+  height: 45px;
+  margin-left: 20px;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+.footer {
+  background-color: #dbdbdb;
+  width: 375px;
+  height: 493px;
+  margin-left: 0px;
+}
+.marce-footer {
+  width: 77px;
+  height: 71px;
+  margin-left: 16px;
+  margin-top: 53px;
+  margin-bottom: 18px;
+}
+.copyright-marce {
+  margin-left: 20px;
+  font-family: "Roboto";
+  font-size: 13px;
+  height: 15px;
+  line-height: 15px;
+  margin-bottom: 85px;
+}
+.container-instagram {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.instagram {
+  font-family: "Roboto";
+  margin-left: 8px;
+  width: 73px;
+  height: 19px;
+}
+.instagram-logo {
+  margin-left: 19px;
+}
+.logo-linkedin {
+  margin-left: 20px;
+  margin-top: 29px;
+}
+.logo-github {
+  margin-left: 20px;
+  margin-top: 25px;
+}
