@@ -1,1 +1,1 @@
-https://github.com/GonzaGregorutti/GonzaGregorutti.github.io.git
+https://gonzagregorutti.github.io/
